@@ -1,0 +1,1396 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/TransformacjaEnergetycznaWPolsce"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/TransformacjaEnergetycznaWPolsce">
+    <Prefix name="" IRI="http://www.semanticweb.org/TransformacjaEnergetycznaWPolsce"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#BlokEnergetyczny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Budynek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BudynekMieszkalny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Budżet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BudżetPaństwa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BudżetUE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CharakterystykaEnergetycznaBudynku"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dokument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dyrektywa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Efekt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elektrownia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElektrowniaGazowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElektrowniaJądrowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElektrowniaWiatrowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElektrowniaWęglowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElementInfrastruktury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energetyka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FarmaWiatrowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fundusz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FunduszStrukturalny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GazCieplarniany"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gazociąg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GospodarstwoDomowe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HandelUprawnieniami"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Idea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instytucja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inwestycja"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JednostkaSamorząduTerytorialnego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KonsultacjeSpołeczne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kopalnia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KrajowyPlanSprawiedliwejTransformacji"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LicznikEnergii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LiniaKolejowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MagazynEnergii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ministerstwo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MixEnergetyczny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MorskaFarmaWiatrowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NieodnawialneŹrodłoEnergii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OdbiorcaEnergii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OdbiorcaIndywidualny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OdnawialneŹrodłoEnergii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganizacjaPozarządowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrganizacjaSpołeczna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paliwo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaliwoAlternatywne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaliwoKopalne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PanelFotowoltaiczny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParlamentNarodowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParlamentRP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Państwo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaństwoCzłonkowskieUE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlanSprawiedliwejTransformacji"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Podatek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PojazdElektryczny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PompaCiepła"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Proces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProgramOperacyjny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProgramPriorytetowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PunktŁadowania"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegionGórniczy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rynek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rząd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RządRP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SamochódElektryczny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sektor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SiećCiepłownicza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SiećElektroenergetyczna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SiećPrzesyłowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkutekSpołeczny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SprzedażUprawnień"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spółka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpółkaSkarbuPaństwa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerenPoprzemysłowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TerytorialnyPlanSprawiedliwejTransformacji"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terytorium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UmowaPartnerstwa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ustawa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WieloletniaRamaFinansowa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Województwo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wyzwanie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Węgiel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZespółParlamentarny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZwiązekZawodowy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ŁańcuchDostaw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ŹródłoCiepła"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ŹródłoEnergii"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cena"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EfektywnośćEnergetyczna"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EnergiaPierwotna"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#JakośćPowietrza"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Koszt"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#KońcoweZużycieEnergiiBrutto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LiczbaMiejscPracy"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MocWytwórcza"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MocZainstalowana"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UbóstwoEnergetyczne"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ZużycieEnergii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AgencjaRozwojuPrzemysłu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BankGospodarstwaKrajowego"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BezpieczeństwoDostaw"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BezpieczeństwoEnergetyczne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BudowaElektrowniJądrowej"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CzystaEnergia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CzystePowietrze"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DolnyŚląsk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DostawaGazu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DwutlenekWęgla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EmisjaDwutlenkuWęgla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EmisjaGazówCieplarnianych"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnergetykaJądrowa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnergetykaKonwencjonalna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnergetykaOdnawialna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnergetykaRozproszona"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnergetykaWiatrowa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnergetykaWęglowa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnergiaCieplna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnergiaElektryczna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnergiaJądrowa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnergiaOdnawialna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EnergiaWiatrowa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Europa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EuropaZachodnia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EuropaŚrodkowa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EuropejskiBankInwestycyjny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EuropejskiFunduszSpołeczny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EuropejskiZielonyŁad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FunduszModernizacyjny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FunduszOdbudowy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FunduszSprawiedliwejTransformacji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FunduszSpójności"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GazZiemny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GazŁupkowy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GrupaWyszehradzka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GórnyŚląsk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JastrzębskaSpółkaWęglowa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KomisjaEuropejska"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KonkurencyjnośćGospodarki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KopalniaTurów"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KrajowyPlanOdbudowy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KryzysKlimatyczny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MagazynowanieEnergii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MinisterstwoAktywówPaństwowych"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MinisterstwoEnergii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MinisterstwoFunduszyIPolitykiRegionalnej"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MinisterstwoKlimatu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MinisterstwoRozwoju"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MinisterstwoSprawZagranicznych"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NarodowyFunduszOchronyŚrodowiskaIGospodarkiWodnej"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NeutralnośćEnergetyczna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NeutralnośćKlimatyczna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Niemcy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NiezależnośćEnergetyczna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NoweMiejscaPracy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ObiegZamknięty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OchronaKlimatu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OchronaŚrodowiska"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OgraniczenieEmisji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Orlen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OszczędnośćEnergii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PakietZimowy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PaliwoJądrowe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ParlamentEuropejski"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Polska"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PolskaGrupaGórnicza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PolskiFunduszRozwoju"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoprawaEfektywnościEnergetycznej"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoprawaJakościPowietrza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PorozumienieParyskie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrawoEnergetyczne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProdukcjaEnergiiEnergetycznej"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProgramPolskiejEnergetykiJądrowej"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrzewagaKonkurencyjna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RadaEuropejska"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RadaUniiEuropejskiej"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rafako"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RedukcjaEmisji"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RopaNaftowa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RozwójEnergetykiOdnawialnej"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RozwójGospodarczy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RozwójOdnawialnychŹródełEnergii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RynekEnergii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RynekMocy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SektorCiepłowniczy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SektorEnergetyczny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecustawaInwestycyjna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecustawaPrzesyłowa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SprawiedliwaTransformacja"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StanyZjednoczone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StrefaEuro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SuwerennośćEnergetyczna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TransformacjaEkologiczna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TransformacjaEnergetyczna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TransformacjaKlimatyczna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TransportKolejowy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TransportPubliczny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TrybunałSprawiedliwościUniiEuropejskiej"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TrójkątWeimarski"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UniaEnergetyczna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UniaEuropejska"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UrządRegulacjiEnergetyki"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WielkaBrytania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WojewództwoŁódzkie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WojewództwoŚląskie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WschodniaWielkopolska"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WytwarzanieEnergiiElektrycznej"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WzrostCenEnergii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WzrostCenPrądu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WzrostKosztów"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WęgielBrunatny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WęgielKamienny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ZamykanieKopalń"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ZielonaEnergia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ZielonaGospodarka"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ZmianaKlimatu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ZrównoważonyRozwój"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Śląsk"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BlokEnergetyczny"/>
+        <Class IRI="#ElementInfrastruktury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BudynekMieszkalny"/>
+        <Class IRI="#Budynek"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Budżet"/>
+        <Class IRI="#Dokument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BudżetPaństwa"/>
+        <Class IRI="#Budżet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BudżetUE"/>
+        <Class IRI="#Budżet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CharakterystykaEnergetycznaBudynku"/>
+        <Class IRI="#Dokument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dyrektywa"/>
+        <Class IRI="#Dokument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElektrowniaGazowa"/>
+        <Class IRI="#Elektrownia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElektrowniaJądrowa"/>
+        <Class IRI="#Elektrownia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElektrowniaWiatrowa"/>
+        <Class IRI="#Elektrownia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElektrowniaWęglowa"/>
+        <Class IRI="#Elektrownia"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FunduszStrukturalny"/>
+        <Class IRI="#Fundusz"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gazociąg"/>
+        <Class IRI="#ElementInfrastruktury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HandelUprawnieniami"/>
+        <Class IRI="#Proces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JednostkaSamorząduTerytorialnego"/>
+        <Class IRI="#Instytucja"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KonsultacjeSpołeczne"/>
+        <Class IRI="#Proces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KrajowyPlanSprawiedliwejTransformacji"/>
+        <Class IRI="#PlanSprawiedliwejTransformacji"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LicznikEnergii"/>
+        <Class IRI="#ElementInfrastruktury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LiniaKolejowa"/>
+        <Class IRI="#ElementInfrastruktury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MagazynEnergii"/>
+        <Class IRI="#ElementInfrastruktury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ministerstwo"/>
+        <Class IRI="#Instytucja"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MorskaFarmaWiatrowa"/>
+        <Class IRI="#FarmaWiatrowa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NieodnawialneŹrodłoEnergii"/>
+        <Class IRI="#ŹródłoEnergii"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OdbiorcaIndywidualny"/>
+        <Class IRI="#OdbiorcaEnergii"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OdnawialneŹrodłoEnergii"/>
+        <Class IRI="#ŹródłoEnergii"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganizacjaPozarządowa"/>
+        <Class IRI="#Instytucja"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrganizacjaSpołeczna"/>
+        <Class IRI="#Instytucja"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaliwoAlternatywne"/>
+        <Class IRI="#Paliwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaliwoKopalne"/>
+        <Class IRI="#Paliwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PanelFotowoltaiczny"/>
+        <Class IRI="#ElementInfrastruktury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParlamentNarodowy"/>
+        <Class IRI="#Instytucja"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParlamentRP"/>
+        <Class IRI="#ParlamentNarodowy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaństwoCzłonkowskieUE"/>
+        <Class IRI="#Państwo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlanSprawiedliwejTransformacji"/>
+        <Class IRI="#Dokument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PompaCiepła"/>
+        <Class IRI="#ElementInfrastruktury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProgramOperacyjny"/>
+        <Class IRI="#Program"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProgramPriorytetowy"/>
+        <Class IRI="#Program"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PunktŁadowania"/>
+        <Class IRI="#ElementInfrastruktury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegionGórniczy"/>
+        <Class IRI="#Terytorium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RządRP"/>
+        <Class IRI="#Rząd"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SamochódElektryczny"/>
+        <Class IRI="#PojazdElektryczny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SiećCiepłownicza"/>
+        <Class IRI="#ElementInfrastruktury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SiećElektroenergetyczna"/>
+        <Class IRI="#ElementInfrastruktury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SiećPrzesyłowa"/>
+        <Class IRI="#ElementInfrastruktury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkutekSpołeczny"/>
+        <Class IRI="#Efekt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SprzedażUprawnień"/>
+        <Class IRI="#Proces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spółka"/>
+        <Class IRI="#Instytucja"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpółkaSkarbuPaństwa"/>
+        <Class IRI="#Spółka"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerenPoprzemysłowy"/>
+        <Class IRI="#Terytorium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TerytorialnyPlanSprawiedliwejTransformacji"/>
+        <Class IRI="#PlanSprawiedliwejTransformacji"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UmowaPartnerstwa"/>
+        <Class IRI="#Dokument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ustawa"/>
+        <Class IRI="#Dokument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WieloletniaRamaFinansowa"/>
+        <Class IRI="#Dokument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Województwo"/>
+        <Class IRI="#Terytorium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Węgiel"/>
+        <Class IRI="#NieodnawialneŹrodłoEnergii"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZespółParlamentarny"/>
+        <Class IRI="#Instytucja"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZwiązekZawodowy"/>
+        <Class IRI="#OrganizacjaSpołeczna"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ŁańcuchDostaw"/>
+        <Class IRI="#Proces"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#SpółkaSkarbuPaństwa"/>
+        <NamedIndividual IRI="#AgencjaRozwojuPrzemysłu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instytucja"/>
+        <NamedIndividual IRI="#BankGospodarstwaKrajowego"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#BezpieczeństwoDostaw"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#BezpieczeństwoEnergetyczne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inwestycja"/>
+        <NamedIndividual IRI="#BudowaElektrowniJądrowej"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#CzystaEnergia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProgramPriorytetowy"/>
+        <NamedIndividual IRI="#CzystePowietrze"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terytorium"/>
+        <NamedIndividual IRI="#DolnyŚląsk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Proces"/>
+        <NamedIndividual IRI="#DostawaGazu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GazCieplarniany"/>
+        <NamedIndividual IRI="#DwutlenekWęgla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Proces"/>
+        <NamedIndividual IRI="#EmisjaDwutlenkuWęgla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Proces"/>
+        <NamedIndividual IRI="#EmisjaGazówCieplarnianych"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energetyka"/>
+        <NamedIndividual IRI="#EnergetykaJądrowa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energetyka"/>
+        <NamedIndividual IRI="#EnergetykaKonwencjonalna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energetyka"/>
+        <NamedIndividual IRI="#EnergetykaOdnawialna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energetyka"/>
+        <NamedIndividual IRI="#EnergetykaRozproszona"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energetyka"/>
+        <NamedIndividual IRI="#EnergetykaWiatrowa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energetyka"/>
+        <NamedIndividual IRI="#EnergetykaWęglowa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energia"/>
+        <NamedIndividual IRI="#EnergiaCieplna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energia"/>
+        <NamedIndividual IRI="#EnergiaElektryczna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energia"/>
+        <NamedIndividual IRI="#EnergiaJądrowa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energia"/>
+        <NamedIndividual IRI="#EnergiaOdnawialna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Energia"/>
+        <NamedIndividual IRI="#EnergiaWiatrowa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terytorium"/>
+        <NamedIndividual IRI="#Europa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terytorium"/>
+        <NamedIndividual IRI="#EuropaZachodnia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terytorium"/>
+        <NamedIndividual IRI="#EuropaŚrodkowa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instytucja"/>
+        <NamedIndividual IRI="#EuropejskiBankInwestycyjny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FunduszStrukturalny"/>
+        <NamedIndividual IRI="#EuropejskiFunduszSpołeczny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Strategia"/>
+        <NamedIndividual IRI="#EuropejskiZielonyŁad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fundusz"/>
+        <NamedIndividual IRI="#FunduszModernizacyjny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fundusz"/>
+        <NamedIndividual IRI="#FunduszOdbudowy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fundusz"/>
+        <NamedIndividual IRI="#FunduszSprawiedliwejTransformacji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fundusz"/>
+        <NamedIndividual IRI="#FunduszSpójności"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NieodnawialneŹrodłoEnergii"/>
+        <NamedIndividual IRI="#GazZiemny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NieodnawialneŹrodłoEnergii"/>
+        <NamedIndividual IRI="#GazŁupkowy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terytorium"/>
+        <NamedIndividual IRI="#GrupaWyszehradzka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terytorium"/>
+        <NamedIndividual IRI="#GórnyŚląsk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SpółkaSkarbuPaństwa"/>
+        <NamedIndividual IRI="#JastrzębskaSpółkaWęglowa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instytucja"/>
+        <NamedIndividual IRI="#KomisjaEuropejska"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#KonkurencyjnośćGospodarki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Kopalnia"/>
+        <NamedIndividual IRI="#KopalniaTurów"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dokument"/>
+        <NamedIndividual IRI="#KrajowyPlanOdbudowy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wyzwanie"/>
+        <NamedIndividual IRI="#KryzysKlimatyczny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Proces"/>
+        <NamedIndividual IRI="#MagazynowanieEnergii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ministerstwo"/>
+        <NamedIndividual IRI="#MinisterstwoAktywówPaństwowych"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ministerstwo"/>
+        <NamedIndividual IRI="#MinisterstwoEnergii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ministerstwo"/>
+        <NamedIndividual IRI="#MinisterstwoFunduszyIPolitykiRegionalnej"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ministerstwo"/>
+        <NamedIndividual IRI="#MinisterstwoKlimatu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ministerstwo"/>
+        <NamedIndividual IRI="#MinisterstwoRozwoju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ministerstwo"/>
+        <NamedIndividual IRI="#MinisterstwoSprawZagranicznych"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instytucja"/>
+        <NamedIndividual IRI="#NarodowyFunduszOchronyŚrodowiskaIGospodarkiWodnej"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Efekt"/>
+        <NamedIndividual IRI="#NeutralnośćEnergetyczna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Efekt"/>
+        <NamedIndividual IRI="#NeutralnośćKlimatyczna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaństwoCzłonkowskieUE"/>
+        <NamedIndividual IRI="#Niemcy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#NiezależnośćEnergetyczna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Efekt"/>
+        <NamedIndividual IRI="#NoweMiejscaPracy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#ObiegZamknięty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#OchronaKlimatu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#OchronaŚrodowiska"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Efekt"/>
+        <NamedIndividual IRI="#OgraniczenieEmisji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SpółkaSkarbuPaństwa"/>
+        <NamedIndividual IRI="#Orlen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Efekt"/>
+        <NamedIndividual IRI="#OszczędnośćEnergii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dokument"/>
+        <NamedIndividual IRI="#PakietZimowy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Paliwo"/>
+        <NamedIndividual IRI="#PaliwoJądrowe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instytucja"/>
+        <NamedIndividual IRI="#ParlamentEuropejski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaństwoCzłonkowskieUE"/>
+        <NamedIndividual IRI="#Polska"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SpółkaSkarbuPaństwa"/>
+        <NamedIndividual IRI="#PolskaGrupaGórnicza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SpółkaSkarbuPaństwa"/>
+        <NamedIndividual IRI="#PolskiFunduszRozwoju"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Efekt"/>
+        <NamedIndividual IRI="#PoprawaEfektywnościEnergetycznej"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Efekt"/>
+        <NamedIndividual IRI="#PoprawaJakościPowietrza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dokument"/>
+        <NamedIndividual IRI="#PorozumienieParyskie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ustawa"/>
+        <NamedIndividual IRI="#PrawoEnergetyczne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Proces"/>
+        <NamedIndividual IRI="#ProdukcjaEnergiiEnergetycznej"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dokument"/>
+        <NamedIndividual IRI="#ProgramPolskiejEnergetykiJądrowej"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Efekt"/>
+        <NamedIndividual IRI="#PrzewagaKonkurencyjna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instytucja"/>
+        <NamedIndividual IRI="#RadaEuropejska"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instytucja"/>
+        <NamedIndividual IRI="#RadaUniiEuropejskiej"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spółka"/>
+        <NamedIndividual IRI="#Rafako"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Efekt"/>
+        <NamedIndividual IRI="#RedukcjaEmisji"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NieodnawialneŹrodłoEnergii"/>
+        <NamedIndividual IRI="#RopaNaftowa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#RozwójEnergetykiOdnawialnej"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#RozwójGospodarczy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#RozwójOdnawialnychŹródełEnergii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rynek"/>
+        <NamedIndividual IRI="#RynekEnergii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rynek"/>
+        <NamedIndividual IRI="#RynekMocy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sektor"/>
+        <NamedIndividual IRI="#SektorCiepłowniczy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sektor"/>
+        <NamedIndividual IRI="#SektorEnergetyczny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ustawa"/>
+        <NamedIndividual IRI="#SpecustawaInwestycyjna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Ustawa"/>
+        <NamedIndividual IRI="#SpecustawaPrzesyłowa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#SprawiedliwaTransformacja"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Państwo"/>
+        <NamedIndividual IRI="#StanyZjednoczone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terytorium"/>
+        <NamedIndividual IRI="#StrefaEuro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#SuwerennośćEnergetyczna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#TransformacjaEkologiczna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#TransformacjaEnergetyczna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#TransformacjaKlimatyczna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transport"/>
+        <NamedIndividual IRI="#TransportKolejowy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transport"/>
+        <NamedIndividual IRI="#TransportPubliczny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instytucja"/>
+        <NamedIndividual IRI="#TrybunałSprawiedliwościUniiEuropejskiej"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terytorium"/>
+        <NamedIndividual IRI="#TrójkątWeimarski"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#UniaEnergetyczna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terytorium"/>
+        <NamedIndividual IRI="#UniaEuropejska"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Instytucja"/>
+        <NamedIndividual IRI="#UrządRegulacjiEnergetyki"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Państwo"/>
+        <NamedIndividual IRI="#WielkaBrytania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Województwo"/>
+        <NamedIndividual IRI="#WojewództwoŁódzkie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Województwo"/>
+        <NamedIndividual IRI="#WojewództwoŚląskie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Terytorium"/>
+        <NamedIndividual IRI="#WschodniaWielkopolska"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Proces"/>
+        <NamedIndividual IRI="#WytwarzanieEnergiiElektrycznej"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Efekt"/>
+        <NamedIndividual IRI="#WzrostCenEnergii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Efekt"/>
+        <NamedIndividual IRI="#WzrostCenPrądu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Efekt"/>
+        <NamedIndividual IRI="#WzrostKosztów"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Węgiel"/>
+        <NamedIndividual IRI="#WęgielBrunatny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Węgiel"/>
+        <NamedIndividual IRI="#WęgielKamienny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Proces"/>
+        <NamedIndividual IRI="#ZamykanieKopalń"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#ZielonaEnergia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#ZielonaGospodarka"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wyzwanie"/>
+        <NamedIndividual IRI="#ZmianaKlimatu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idea"/>
+        <NamedIndividual IRI="#ZrównoważonyRozwój"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RegionGórniczy"/>
+        <NamedIndividual IRI="#Śląsk"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#OgraniczenieEmisji"/>
+        <NamedIndividual IRI="#RedukcjaEmisji"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#ProdukcjaEnergiiEnergetycznej"/>
+        <NamedIndividual IRI="#WytwarzanieEnergiiElektrycznej"/>
+    </SameIndividual>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
