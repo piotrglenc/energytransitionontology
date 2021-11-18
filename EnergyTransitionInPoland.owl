@@ -43,9 +43,6 @@
         <Class IRI="#Company"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CompanyOfStateTreasury"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Directive"/>
     </Declaration>
     <Declaration>
@@ -163,13 +160,16 @@
         <Class IRI="#MultiannualFinancialFramework"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#NationalCompany"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#NationalJustTransitionPlan"/>
     </Declaration>
     <Declaration>
         <Class IRI="#NationalParliament"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NonGovernmentalOrganization"/>
+        <Class IRI="#NonGovernmentalOrganisation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#NonrenewableEnergySource"/>
@@ -232,7 +232,7 @@
         <Class IRI="#Sector"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SocialOrganization"/>
+        <Class IRI="#SocialOrganisation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SocialResult"/>
@@ -705,10 +705,6 @@
         <Class IRI="#Institution"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CompanyOfStateTreasury"/>
-        <Class IRI="#Company"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Directive"/>
         <Class IRI="#Document"/>
     </SubClassOf>
@@ -785,6 +781,10 @@
         <Class IRI="#Document"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#NationalCompany"/>
+        <Class IRI="#Company"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#NationalJustTransitionPlan"/>
         <Class IRI="#JustTransitionPlan"/>
     </SubClassOf>
@@ -793,7 +793,7 @@
         <Class IRI="#Institution"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#NonGovernmentalOrganization"/>
+        <Class IRI="#NonGovernmentalOrganisation"/>
         <Class IRI="#Institution"/>
     </SubClassOf>
     <SubClassOf>
@@ -861,7 +861,7 @@
         <Class IRI="#Building"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SocialOrganization"/>
+        <Class IRI="#SocialOrganisation"/>
         <Class IRI="#Institution"/>
     </SubClassOf>
     <SubClassOf>
@@ -886,7 +886,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TradeUnion"/>
-        <Class IRI="#SocialOrganization"/>
+        <Class IRI="#SocialOrganisation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TransmissionNetwork"/>
@@ -1161,11 +1161,11 @@
         <NamedIndividual IRI="#HeatingSector"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#CompanyOfStateTreasury"/>
+        <Class IRI="#NationalCompany"/>
         <NamedIndividual IRI="#IndustrialDevelopmentAgency"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#CompanyOfStateTreasury"/>
+        <Class IRI="#NationalCompany"/>
         <NamedIndividual IRI="#JastrzębskaSpółkaWęglowa"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1245,7 +1245,7 @@
         <NamedIndividual IRI="#NuclearFuel"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#CompanyOfStateTreasury"/>
+        <Class IRI="#NationalCompany"/>
         <NamedIndividual IRI="#Orlen"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1261,7 +1261,7 @@
         <NamedIndividual IRI="#Poland"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#CompanyOfStateTreasury"/>
+        <Class IRI="#NationalCompany"/>
         <NamedIndividual IRI="#PolishDevelopmentFund"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -1269,7 +1269,7 @@
         <NamedIndividual IRI="#PolishNuclearEnergyProgramme"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#CompanyOfStateTreasury"/>
+        <Class IRI="#NationalCompany"/>
         <NamedIndividual IRI="#PolskaGrupaGórnicza"/>
     </ClassAssertion>
     <ClassAssertion>
