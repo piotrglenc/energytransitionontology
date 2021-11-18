@@ -184,7 +184,7 @@
         <Class IRI="#OperationalProgramme"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ParliamentaryTeam"/>
+        <Class IRI="#ParliamentaryGrouping"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PartnershipAgreement"/>
@@ -217,7 +217,7 @@
         <Class IRI="#Programme"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PublicConsultation"/>
+        <Class IRI="#PublicConsultations"/>
     </Declaration>
     <Declaration>
         <Class IRI="#RailwayLine"/>
@@ -813,7 +813,7 @@
         <Class IRI="#Programme"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ParliamentaryTeam"/>
+        <Class IRI="#ParliamentaryGrouping"/>
         <Class IRI="#Institution"/>
     </SubClassOf>
     <SubClassOf>
@@ -845,7 +845,7 @@
         <Class IRI="#Programme"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#PublicConsultation"/>
+        <Class IRI="#PublicConsultations"/>
         <Class IRI="#Process"/>
     </SubClassOf>
     <SubClassOf>
