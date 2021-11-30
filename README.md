@@ -7,13 +7,17 @@ Terminology extraction was performed in the TermoPL tool. The ontology is availa
 
 
 ## Author
-Piotr Glenc\
-Department of Informatics and Communication\
+Piotr Glenc
+
+Department of Informatics and Communication
+
 University of Economics in Katowice
 ## Citation
 
-If you use this project in your research, plese cite the below paper:\
-\
+If you use this project in your research, plese cite the below paper:
+
+
+
 (to be completed after publication)
 ## Feedback
 
